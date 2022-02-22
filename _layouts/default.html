@@ -11,7 +11,11 @@
 {% assign condensed_class = "" %}
 {%- endif -%}
 
+{% if site.plainwhite.dark_mode %}
+<body class="dark">
+{% else %}
 <body>
+{% endif %}
   <main class="container">
     <section class="about">
       <div class="about-header {{condensed_class}}">
@@ -149,7 +153,7 @@
       <p class="about-footer {{condensed_class}}">&copy;
         {{ "now" | date: "%Y" }}</p>
       {%- if site.plainwhite.dark_mode -%}
-      <div class="about-footer {{condensed_class}}">
+      <!-- <div class="about-footer {{condensed_class}}">
         <p>Dark Mode
           <i class="icon-moon"></i>
           <label class="switch">
@@ -157,7 +161,7 @@
             <span class="slider round" onclick="toggleDarkMode()"></span>
           </label>
         </p>
-      </div>
+      </div> -->
       {%- endif -%}
       {% endcapture %}
       {{ footer }}
