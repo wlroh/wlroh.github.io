@@ -13,10 +13,11 @@ sass:
 plainwhite:
   name: LaeWoong
   # tagline: Developer. Designer
-  tagline: |
-    Developer
+  tagline: Developer
+  intro: |
+    목표를 위해 시스템을,
 
-    testing
+    시스템을 위해 초심을
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
@@ -27,6 +28,7 @@ plainwhite:
     #- home
     - page
     - post
+    - category_archive
   # generate social links in footer
   social_links:
     #twitter: samarsault
@@ -50,10 +52,12 @@ plainwhite:
     # - username: jekyll2
     #   instance: example.com
   navigation:
-    - title: Posts
-      url: "/"
     - title: Resume
       url: "/resume"
+    - title: Posts
+      url: "/"
+    - title: Categories
+      url: "/categories"
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up

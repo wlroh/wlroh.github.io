@@ -2,7 +2,8 @@
 @import "ext/normalize";
 @import "syntax";
 
-$linkColor: #0a59b0;
+// $linkColor: #0a59b0;
+$linkColor: #f6f6f6;
 $mobileW: 768px;
 $smallMobileW: 480px;
 $bigScreenW: 1600px;
@@ -15,7 +16,9 @@ $leftWidth: 220px;
 }
 
 body {
-  font-family: "Raleway", sans-serif;
+  // font-family: "Raleway", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Nanum Gothic", "Roboto",
+    "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 16px;
   line-height: 1.2em;
   margin: 0;
@@ -109,6 +112,16 @@ main {
       white-space: pre-wrap;
       line-height: normal;
     }
+    .intro {
+      font-size: 16px;
+      margin: 0 0 12px 0;
+      text-align: center;
+      white-space: pre-wrap;
+      line-height: 0.8em;
+    }
+    .about-header.condensed .intro {
+      margin: 12px 0;
+    }
     img {
       max-width: 150px;
     }
@@ -168,7 +181,8 @@ main {
       text-align: center;
       padding: 1rem 0;
       text-decoration: none;
-      border-bottom: 1px solid #ececec;
+      // border-bottom: 1px solid #ececec;
+      border-bottom: 1px solid rgb(52, 56, 58);
 
       @media screen and (max-width: $mobileW) {
         padding: 2rem 0;
@@ -223,7 +237,7 @@ main {
 
 .post-title {
   line-height: 1.2em;
-  font-size: 24px;
+  font-size: 22px;
   margin-bottom: 10px;
 }
 .posts,
@@ -244,7 +258,9 @@ main {
 }
 .post {
   // font-family: "Merriweather", sans-serif;
-  font-family: "Nanum Gothic", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Nanum Gothic", "Roboto",
+    "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+
   // font-weight: 300;
   color: #222;
   line-height: 1.9em;
@@ -257,6 +273,7 @@ main {
     transition: border-bottom 0.4s;
     &:hover {
       border-bottom: 0.5px solid $linkColor;
+      color: $linkColor;
     }
   }
   h1,

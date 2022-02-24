@@ -2,7 +2,8 @@
 .dark * {
   $dark_text_color: #f6f6f6;
   $dark_link_color: #4da3ff;
-  background-color: #171717;
+  // background-color: #171717;
+  background-color: rgb(26, 28, 29);
   color: $dark_text_color;
   border-color: #e6e6e6;
 
@@ -14,6 +15,7 @@
       display: inline;
     }
   }
+
   .post p {
     color: #ddd;
   }
@@ -25,6 +27,70 @@
   }
   .post blockquote p code {
     color: #8b949e;
+  }
+
+  .category-index {
+    display: grid;
+    grid-column-gap: 2em;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 1.414em 0;
+    padding: 0;
+    font-size: 1.2em;
+    list-style: none;
+  }
+  .category-index strong,
+  .category-index .category-index-count {
+    color: #aaa;
+  }
+  .category-index-count {
+    font-size: 0.8em;
+  }
+  .category-index a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0.25em 0;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(52, 56, 58);
+  }
+  @media (min-width: 64em) {
+    .category-index {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  .category-section {
+    margin-top: 2em;
+  }
+  .category-section .archive__subtitle {
+    color: #aaa;
+  }
+  .category-section .entries-title {
+    margin-bottom: 0;
+  }
+  .category-section .entries-date {
+    font-size: 0.8em;
+  }
+  .category-section .entries-post {
+    font-size: 0.9em;
+    line-height: 1em;
+    margin: 0;
+  }
+
+  .back-to-top {
+    display: block;
+    clear: both;
+    // color: #646769;
+    color: rgb(167, 160, 148);
+    font-size: 0.75em;
+    text-transform: uppercase;
+    text-align: right;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(52, 56, 58);
+    padding: 10px 0;
   }
 
   .social [class^="icon-"] {
