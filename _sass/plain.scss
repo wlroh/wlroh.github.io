@@ -85,9 +85,15 @@ main {
     @media screen and (max-width: $mobileW) {
       height: auto;
       padding: 5vh 30px;
+      .about-header .intro {
+        margin: 12px 0 0 0;
+      }
     }
     @media screen and (max-width: $smallMobileW) {
       padding: 5vh 20px;
+      .about-header .intro {
+        margin: 12px 0 0 0;
+      }
     }
     @media screen and (min-width: $mobileW + 1) {
       position: fixed;
@@ -119,9 +125,9 @@ main {
       white-space: pre-wrap;
       line-height: 0.8em;
     }
-    .about-header.condensed .intro {
-      margin: 12px 0;
-    }
+    // .about-header.condensed .intro {
+    //   margin: 12px 0;
+    // }
     img {
       max-width: 150px;
     }
