@@ -17,7 +17,7 @@ plainwhite:
   intro: |
     목표를 위해 시스템을,
 
-    시스템을 위해 초심을
+    시스템을 위해 회고를
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
