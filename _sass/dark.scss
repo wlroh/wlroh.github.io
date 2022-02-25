@@ -73,6 +73,10 @@
   }
   .category-section .entries-title {
     margin-bottom: 0;
+    transition: color 0.1s;
+  }
+  .category-section .entries-title:hover {
+    color: #ddd;
   }
   .category-section .entries-date {
     font-size: 0.8em;
