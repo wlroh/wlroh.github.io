@@ -2,6 +2,7 @@
 layout: post
 title: "변수의 종류"
 date: 2022-02-20 21:03:36 +0530
+excerpt: "자바 변수 종류에 대해 알아보자"
 categories: Java
 ---
 
