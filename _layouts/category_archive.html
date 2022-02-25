@@ -31,7 +31,7 @@ layout: default
       <h3 class="archive__subtitle">{{ category[0] }}</h3>
       <div class="entries-{{ page.entries_layout | default: 'list' }}">
         {% for post in category.last %}
-        <li>
+        <li class="entries-box">
           {%- assign date_format = site.plainwhite.date_format | default: "%b
           %-d, %Y" -%}
           <a class="entries-link" href="{{ post.url | relative_url }}">

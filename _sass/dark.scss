@@ -68,6 +68,9 @@
   .category-section .archive__subtitle {
     color: #aaa;
   }
+  .category-section .entries-box {
+    padding-bottom: 14px;
+  }
   .category-section .entries-title {
     margin-bottom: 0;
   }
@@ -90,7 +93,8 @@
     text-align: right;
     text-decoration: none;
     border-bottom: 1px solid rgb(52, 56, 58);
-    padding: 10px 0;
+    // padding: 10px 0;
+    padding-bottom: 10px;
   }
 
   .social [class^="icon-"] {

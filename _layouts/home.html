@@ -31,14 +31,14 @@ layout: default
   </li>
 
   {%- for post in site.posts -%}
-  <li>
+  <li class="post-box">
     {%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y"
     -%}
     <a class="post-link" href="{{ post.url | relative_url }}">
-      <h2 class="post-title">{{ post.title | escape }}</h2>
+      <h2 class="post-title mb-0">{{ post.title | escape }}</h2>
     </a>
     <div class="post-meta">
-      <div class="post-date">
+      <div class="post-date sm-font">
         <i class="icon-calendar"></i>
         {{ post.date | date: date_format }}
       </div>
@@ -50,7 +50,7 @@ layout: default
       </ul>
       {%- endif -%}
     </div>
-    <div class="post">
+    <div class="post sm-font">
       {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%}
     </div>
   </li>

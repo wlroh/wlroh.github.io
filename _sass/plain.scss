@@ -200,6 +200,32 @@ main {
   }
 }
 
+.sm-font {
+  font-size: 0.8em;
+}
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+.post-box {
+  margin-bottom: 40px;
+}
+.post-box .sm-font {
+  line-height: 0.9em;
+}
+.post-box .post-link .post-title {
+  transition: color 0.1s;
+}
+.post-box .post-link .post-title:hover {
+  color: #ddd;
+}
+.post-box .post-categories li {
+  @media screen and (max-width: $mobileW) {
+    margin: 0 0 10px 0;
+    font-size: 12px;
+    padding: 3px 12px;
+  }
+}
+
 .post-wrapper {
   border-bottom: 1px solid #ececec;
   margin-bottom: 1rem;
