@@ -1,6 +1,4 @@
 ---
-layout: page
+layout: resume
 permalink: /resume/
 ---
-
-## 이력서 페이지 추가 예정
