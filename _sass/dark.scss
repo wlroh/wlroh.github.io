@@ -70,13 +70,14 @@
   }
   .category-section .entries-box {
     padding-bottom: 14px;
+    cursor: pointer;
+  }
+  .entries-box:hover .entries-title {
+    color: #ddd;
   }
   .category-section .entries-title {
     margin-bottom: 0;
     transition: color 0.1s;
-  }
-  .category-section .entries-title:hover {
-    color: #ddd;
   }
   .category-section .entries-date {
     font-size: 0.8em;
@@ -99,6 +100,7 @@
     border-bottom: 1px solid rgb(52, 56, 58);
     // padding: 10px 0;
     padding-bottom: 10px;
+    transition: border-bottom 0.1s;
   }
 
   .social [class^="icon-"] {

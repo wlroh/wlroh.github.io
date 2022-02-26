@@ -208,15 +208,16 @@ main {
 }
 .post-box {
   margin-bottom: 40px;
+  cursor: pointer;
+}
+.post-box:hover .post-title {
+  color: #aaa;
 }
 .post-box .sm-font {
   line-height: 0.9em;
 }
 .post-box .post-link .post-title {
   transition: color 0.1s;
-}
-.post-box .post-link .post-title:hover {
-  color: #ddd;
 }
 .post-box .post-categories li {
   @media screen and (max-width: $mobileW) {

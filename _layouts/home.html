@@ -31,10 +31,10 @@ layout: default
   </li>
 
   {%- for post in site.posts -%}
-  <li class="post-box">
+  <li class="post-box" onclick="hrefLink('{{ post.url | relative_url }}')">
     {%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y"
     -%}
-    <a class="post-link" href="{{ post.url | relative_url }}">
+    <a class="post-link">
       <h2 class="post-title mb-0">{{ post.title | escape }}</h2>
     </a>
     <div class="post-meta">

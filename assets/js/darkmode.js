@@ -48,3 +48,7 @@ if (theme === null || theme === "dark") {
 
   // window.addEventListener("DOMContentLoaded", toggleSwitch);
 }
+
+function hrefLink(url) {
+  location.href = url;
+}

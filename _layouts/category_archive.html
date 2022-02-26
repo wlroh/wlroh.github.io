@@ -31,10 +31,13 @@ layout: default
       <h3 class="archive__subtitle">{{ category[0] }}</h3>
       <div class="entries-{{ page.entries_layout | default: 'list' }}">
         {% for post in category.last %}
-        <li class="entries-box">
+        <li
+          class="entries-box"
+          onclick="hrefLink('{{ post.url | relative_url }}')"
+        >
           {%- assign date_format = site.plainwhite.date_format | default: "%b
           %-d, %Y" -%}
-          <a class="entries-link" href="{{ post.url | relative_url }}">
+          <a class="entries-link">
             <h2 class="entries-title">{{ post.title | escape }}</h2>
           </a>
           <div class="entries-meta">
