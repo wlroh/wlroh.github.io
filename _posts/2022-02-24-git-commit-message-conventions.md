@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "Commit Message Conventions"
+title: "협업하기 좋은 커밋 메시지 구조"
 date: 2022-02-24 21:03:36 +0530
-excerpt: "좋은 커밋 메시지를 작성하기 위한 메시지 구조는 무엇일까?"
+excerpt: "협업하기 좋은 커밋 메시지를 작성하기 위한 메시지 구조는 무엇일까?"
 categories: Git
 tags: 메시지 구조
 ---
 
 ## 좋은 커밋 메시지를 작성하기 위한 메시지 구조
 
-[좋은 Git 커밋 메시지](https://wlroh.github.io/git/2022/02/23/git-commit-message-guide.html) 를 통해 `커밋 메시지를 잘 쓰려고 노력해야 하는 이유` 를 알게 되었고, 좋은 커밋 메시지를 작성하기 위해 `좋은 커밋 메시지를 작성하기 위한 7가지 약속` 을 바탕으로 좋은 커밋 메시지 구조를 보여드리겠습니다.
+[커밋 메세지를 잘 쓰려고 노력해야 하는 이유](https://wlroh.github.io/git/2022/02/23/git-commit-message-guide.html) 를 통해 `커밋 메시지를 잘 쓰려고 노력해야 하는 이유` 를 알게 되었고, 좋은 커밋 메시지를 작성하기 위해 `좋은 커밋 메시지를 작성하기 위한 7가지 약속` 을 바탕으로 좋은 커밋 메시지 구조를 보여드리겠습니다.
 
 ```
 타입(type): 제목(subject)
