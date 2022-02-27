@@ -2,7 +2,6 @@
 @import "ext/normalize";
 @import "syntax";
 
-// $linkColor: #0a59b0;
 $linkColor: #f6f6f6;
 $mobileW: 768px;
 $smallMobileW: 480px;
@@ -16,7 +15,6 @@ $leftWidth: 220px;
 }
 
 body {
-  // font-family: "Raleway", sans-serif;
   font-family: -apple-system, BlinkMacSystemFont, "Nanum Gothic", "Roboto",
     "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 16px;
@@ -186,11 +184,9 @@ main {
 
     a {
       display: block;
-      // font-family: 'Merriweather';
       text-align: center;
       padding: 1rem 0;
       text-decoration: none;
-      // border-bottom: 1px solid #ececec;
       border-bottom: 1px solid rgb(52, 56, 58);
 
       @media screen and (max-width: $mobileW) {
@@ -207,7 +203,6 @@ main {
   margin-bottom: 0 !important;
 }
 .post-box {
-  // margin-bottom: 40px;
   transition: all 0.2s;
   cursor: pointer;
 }
@@ -308,11 +303,9 @@ main {
   padding-left: 30px;
 }
 .post {
-  // font-family: "Merriweather", sans-serif;
   font-family: -apple-system, BlinkMacSystemFont, "Nanum Gothic", "Roboto",
     "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 
-  // font-weight: 300;
   color: #222;
   line-height: 1.9em;
   p {
