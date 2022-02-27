@@ -1,13 +1,11 @@
 ---
 layout: post
-title: "Commit Message Guide"
+title: "커밋 메시지를 잘 쓰려고 노력해야 하는 이유"
 date: 2022-02-23 22:59:00 +0530
 excerpt: "왜 커밋 메시지를 잘 쓰려고 노력해야 할까?"
 categories: Git
 tags: 커밋 메시지구조
 ---
-
-## 커밋 메시지를 잘 쓰려고 노력해야 하는 이유
 
 왜 커밋 메시지를 잘 쓰기 위해 노력해야 할까요? 이유는 서로 다를 수 있지만, 잘 쓰인 커밋 메시지가 더 유익하다는 사실에는 많은 프로그래머들이 동의할 것으로 여겨집니다.
 
@@ -171,7 +169,7 @@ git은 자동으로 커밋 메시지를 줄바꿈하지 않습니다. `git log`�
 
 ### 좋은 커밋 메시지 구조란?
 
-위의 7가지 약속을 바탕으로 좋은 커밋 메시지 구조도 같이 살펴보고 싶을 경우 [좋은 Git 메시지 구조](https://github.com/wlroh/Today-I-Learned/blob/master/Git/%EC%A2%8B%EC%9D%80%20Git%20%EB%A9%94%EC%8B%9C%EC%A7%80%20%EA%B5%AC%EC%A1%B0.md)를 참조하면 됩니다.
+위의 7가지 약속을 바탕으로 좋은 커밋 메시지 구조도 같이 살펴보고 싶을 경우 [협업하기 좋은 커밋 메시지 구조](https://wlroh.github.io/git/2022/02/24/git-commit-message-conventions.html)를 참조하면 됩니다.
 
 ### 레퍼런스
 
