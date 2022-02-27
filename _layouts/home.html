@@ -44,8 +44,12 @@ layout: default
       </div>
       {%- if post.categories.size > 0-%}
       <ul class="post-categories">
-        {%- for tag in post.categories -%}
-        <li>{{ tag }}</li>
+        {%- for category in post.categories -%}
+        <li
+          onclick="javascript:event.stopPropagation();goCategoryPage('{{ category }}');"
+        >
+          {{ category }}
+        </li>
         {%- endfor -%}
       </ul>
       {%- endif -%}
@@ -54,7 +58,9 @@ layout: default
       {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%}
     </div>
   </li>
-  {%- endfor -%}
+  {% unless forloop.last %}
+  <hr class="post-separation" />
+  {% endunless %} {%- endfor -%}
 </ul>
 
 <!-- <p class="feed-subscribe"><svg class="svg-icon orange">

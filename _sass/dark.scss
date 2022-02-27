@@ -29,6 +29,12 @@
     color: #8b949e;
   }
 
+  .category-index-box:hover {
+    .category-index-name,
+    .category-index-count {
+      color: #888;
+    }
+  }
   .category-index {
     display: grid;
     grid-column-gap: 2em;
@@ -38,7 +44,7 @@
     font-size: 1.2em;
     list-style: none;
   }
-  .category-index strong,
+  .category-index .category-index-name,
   .category-index .category-index-count {
     color: #aaa;
   }
@@ -65,15 +71,26 @@
   .category-section {
     margin-top: 2em;
   }
+  .category-section .post-separation {
+    margin: 14px 0;
+    height: 0;
+  }
   .category-section .archive__subtitle {
     color: #aaa;
   }
   .category-section .entries-box {
-    padding-bottom: 14px;
+    padding-bottom: 2px;
     cursor: pointer;
+    transition: all 0.2s;
   }
-  .entries-box:hover .entries-title {
-    color: #ddd;
+  .entries-box:hover {
+    transform: translateX(10px);
+
+    .entries-title,
+    .entries-date,
+    .entries-post {
+      color: #c5c5c5;
+    }
   }
   .category-section .entries-title {
     margin-bottom: 0;
@@ -146,6 +163,18 @@
     li {
       background-color: #333;
       color: #fff;
+      transition: color 0.3s;
+      cursor: pointer;
+    }
+
+    li:hover {
+      background-color: #404040;
+      color: #fff;
+      .post-title,
+      .post-date,
+      .post {
+        color: #f6f6f6 !important;
+      }
     }
   }
 
@@ -160,7 +189,8 @@
   }
 
   .posts-labelgroup {
-    border-bottom: 1px solid #333;
+    // border-bottom: 1px solid #333;
+    border-bottom: 2px solid #333;
     .search-results {
       background-color: #333;
 
