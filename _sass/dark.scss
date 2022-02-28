@@ -28,6 +28,9 @@
     color: #8b949e;
   }
 
+  .category-index-name {
+    font-size: 0.9em;
+  }
   .category-index-box:hover {
     .category-index-name,
     .category-index-count {
@@ -125,7 +128,6 @@
 
   #posts-label {
     color: $dark_text_color;
-    // border-bottom: 1px solid #272727;
   }
 
   @import "ext/solarized-dark";
