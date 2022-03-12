@@ -1,0 +1,9 @@
+- title: Education
+  layout: list
+  content:
+    - layout: left
+      left_area_vertical_align: top
+      title: 명지대학교
+      caption: 2014.03 ~ 2019.08
+      description: | # this will include new lines to allow paragraphs
+        * 산업경영공학과 학사 졸업

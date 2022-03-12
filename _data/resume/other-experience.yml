@@ -1,0 +1,44 @@
+- title: Other Experience
+  layout: list
+  content:
+    - layout: top-middle
+      title: 기술 블로그
+      link: https://wlroh.github.io
+      link_text:
+      description: | # this will include new lines to allow paragraphs
+        * 개인 기술 블로그를 운영하고 있습니다.
+        * 새로운 내용들을 배우면 공유하기 위해 포스트를 작성하고 있습니다.
+
+    - layout: top-middle
+      title: 소리보기 창업 활동
+      caption: 2016.09 ~ 2019.08
+      description: | # this will include new lines to allow paragraphs
+        * (주)소리보기 창립멤버로 스타트업을 운영한 경험이 있습니다. 활동 기간동안 웹어플리케이션, API 서버, 안드로이드 앱 개발을 진행했으며 다양한 지원사업 및 베타 서비스 런칭 등의 경험이 있습니다.
+
+        * 사운드를 통해 영상 콘텐츠를 인식해 자동으로 자막을 송출해주는 서비스와 스타벅스 사이렌 오더와 비슷한 플랫폼 서비스를 개발하였습니다.
+
+        * __활동 기사 및 인터뷰__
+
+          [우리 대학 창업 동아리로 시작한 신생 스타트업 기업 '소리보기'를 만나다](https://news.mju.ac.kr/news/articleView.html?idxno=4131) - 2018.05.14  
+
+          [청각장애인을 위한 자막제공 앱서비스](https://www.startuptoday.kr/news/articleView.html?idxno=1684) - 2017.12.27
+
+          [용인시티지털산업진흥원 입상팀 미국 실리콘밸리 탐방](http://www.yonginilbo.co.kr/news/articleView.html?idxno=64770) - 2016.11.14
+
+        * __수상이력__
+
+          창업선도대학 창업아이템 사업화 최종선정  
+          2018.09 ~ 2019.03 _중소벤처부 / 창업진흥원_
+
+          SK 청년비상 창업지원 프로그램 3기 최종선정  
+          2017.08 ~ 2018.02 _SK Telecom_
+
+          사회적기업가 육성사업 7기 최종선정  
+          2017.02 ~ 2017.12 _한국사회적기업진흥원_
+          
+          창조적 아이디어 창업경진대회 최종선정 및 __미국 실리콘밸리 기업연수__  
+          2016.09 _용인시 디지털 산업진흥원_  
+          [미국 실리콘밸리 벤처기업 연수](https://blog.naver.com/PostView.naver?blogId=kmablog&logNo=220886761801&categoryNo=116&parentCategoryNo=0)
+
+          경기창업 아이디어 공모전 3위 수상  
+          2016.10 _경기과학기술진흥원_

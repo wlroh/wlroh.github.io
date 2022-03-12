@@ -1,0 +1,27 @@
+- title: Skill
+  layout: list
+  content:
+    - layout: left
+      left_area_vertical_align: top
+      title: Backend
+      description: | # this will include new lines to allow paragraphs
+        * Java, Node.js
+        * Spring MVC, Spring Boot, Express
+        * Mybatis
+        * Junit4/5
+        * Gradle, Maven
+        * Intellij, Eclipse, Visual Studio Code
+    - layout: left
+      left_area_vertical_align: top
+      title: DevOps
+      description: | # this will include new lines to allow paragraphs
+        * MySQL, MariaDB, MSSQL, Redis
+        * Jenkins, Ansible
+        * Tomcat, Nginx, Resin
+        * Linux(CentOS, Ubuntu)
+        * Docker, Docker-compose, Kubernetes
+    - layout: left
+      left_area_vertical_align: top
+      title: Frontend
+      description: | # this will include new lines to allow paragraphs
+        * Thymeleaf, JSP, JavaScript, HTML/CSS

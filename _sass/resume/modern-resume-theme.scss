@@ -8,13 +8,13 @@
   margin-bottom: 3px;
 }
 
-.header-right a{
-  color:inherit;
-  font-weight:500;
+.header-right a {
+  color: inherit;
+  font-weight: 500;
 }
 
 @media screen and (max-width: 767px) {
-  .header-container div{
+  .header-container div {
     text-align: center;
   }
 
@@ -48,9 +48,9 @@
   }
 }
 
-.border-weak  {
+.border-weak {
   padding-bottom: 8px;
-  border-bottom: dashed 1px #CCCCCC;
+  border-bottom: dashed 1px #cccccc;
 }
 
 .layout {
@@ -77,10 +77,10 @@
     }
 
     @media screen and (max-width: 767px) {
-      text-align: center!important;
+      text-align: center !important;
 
       p {
-        text-align: center!important;
+        text-align: center !important;
       }
     }
 
@@ -111,19 +111,27 @@
       }
     }
   }
+  .details.top {
+    justify-content: flex-start;
+  }
+  .details.bottom {
+    justify-content: flex-end;
+  }
 }
 
 .layout-right {
   flex-direction: row-reverse;
 }
 
-.layout-right, .layout-top-right {
+.layout-right,
+.layout-top-right {
   .details {
     text-align: right;
   }
 }
 
-.layout-left, .layout-right {
+.layout-left,
+.layout-right {
   @media screen and (max-width: 767px) {
     flex-direction: column;
   }
@@ -133,10 +141,13 @@
   }
 }
 
-.layout-top-middle, .layout-top, .layout-top-right {
+.layout-top-middle,
+.layout-top,
+.layout-top-right {
   flex-direction: column;
 
-  .details, .content {
+  .details,
+  .content {
     width: 100%;
   }
 }
@@ -148,7 +159,7 @@
 }
 
 .footer-container {
-  margin-top:100px;
+  margin-top: 100px;
 }
 
 .footer-container p {
@@ -170,14 +181,14 @@
 .contact a {
   line-height: 50px;
   margin-left: 30px;
-  color: #BBBBBB;
+  color: #bbbbbb;
   -webkit-transition: color 0.4s ease;
   -moz-transition: color 0.4s ease;
   transition: color 0.4s ease;
 }
 
 .contact a:hover {
-  color: #4C4C4C;
+  color: #4c4c4c;
 }
 
 p.quote {
@@ -191,4 +202,31 @@ p.quote {
     padding: 0rem 1rem;
     margin-top: 1rem;
   }
+}
+
+.project {
+  font-family: -apple-system, BlinkMacSystemFont, "Nanum Gothic", "Roboto",
+    "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+
+  h4 {
+    font-size: 2.8rem;
+  }
+  h5 {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 1.6;
+  }
+  .duration {
+    display: block;
+    margin: 0.8rem 0;
+    font-size: 1.4rem;
+  }
+  .project-section {
+    margin-bottom: 30px;
+  }
+}
+
+.prj-separator {
+  border: 0px;
+  padding: 30px 0;
 }

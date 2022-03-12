@@ -1,0 +1,66 @@
+- title: Work Experience
+  layout: list
+  content:
+    - layout: left
+      left_area_vertical_align: top
+      title: 유플렉스소프트
+      sub_title: |
+        Java/Node.js 웹 어플리케이션 개발자
+        산업기능요원 복무
+      caption: 2019.09 ~ 현재
+      quote: >
+        가상화 기술을 통해 스마트오피스, 스마트교실, 스마트 공장 솔루션을 보유한 클라우드 기업
+      projects:
+        - name: SAE-A PREP 시스템
+          duration: 2021.12 ~ 현재
+          description: 세아상역에서 의류 제품을 양산 전에 이루어지는 패턴, 소싱, 코스팅 등의 모든 업무를 시스템화 하는 SI 프로젝트입니다.
+          what_did_I_do: |
+            * Task 생성, 업데이트, 선후행 관계 제어 등 모든 업무들을 관리하는 워크플로우 Restful API 설계 및 개발
+
+            * 공통 UI 작업과 업무 진척관리를 위한 화면 구현
+
+            * 로그인 및 권한 관리 기능 구현
+
+            * 요구사항의 변경이 자주 발생할 여지가 있어 테스트 코드를 작성하며 기능 변경에도 유연하게 진행할 수 있도록 개발
+          tech_stack: Java, Spring MVC, Mybatis, Junit4, Resin, MSSQL
+
+        - name: 화상회의 서비스
+          duration: 2021.01 ~ 현재
+          description: 고객사 관리자가 직접 화상회의 시스템을 관리하고, 고객사 유저 및 게스트간의 화상회의를 진행할 수 있는 B2B 웹 기반 화상회의 서비스입니다.
+          what_did_I_do: |
+            * 혼자서 화상회의 신규 서비스를 기획, 설계, 개발, 운영 중이며, 현재 100여개의 기업에서 화상회의 서비스를 이용
+
+            * 각각의 고객사 관리자들이 사용자관리, 이력관리 등 시스템을 관리할 수 있도록 어드민 기능 구현
+
+            * 고객사에서 Saas Service 관리 포탈을 통해 쉽게 화상회의 서비스 이용권한을 제공하기 위해 화상회의 서비스 연동 API 설계 및 개발
+
+            * 서비스 고도화 및 안정성 확보를 위해 Kubernetes를 통해 오토 스케일링 및 Nginx를 통해 로드밸런싱 구현
+
+            * 빠른 피드백 반영 및 서비스 개선을 위해 Jenkins를 이용해 CI/CD 구축
+          tech_stack: Node.js, Express, Nginx, MariaDB, Redis, Kubernetes, Docker, Docker-compose, Jenkins
+
+        - name: 스마트오피스 솔루션 - 가상화 데스크톱(DV)
+          duration: 2020.04 ~ 현재
+          description: 스마트오피스 솔루션 중 가상화 데스크톱(DV)은 삼성 Dex 서비스와 같이 가상 데스크톱을 클라우드 기반으로 제공하는 서비스입니다.
+          what_did_I_do: |
+            * 기존 사용자 포탈의 경우 담당자가 없어 운영이 중단된 서비스를 개선하여 런칭 및 유지보수
+
+            * SMS, 2Factor 인증 앱, 카카오 등을 통해 2Factor 인증 기능 구현
+
+            * 삼성물산에 가상화 데스크톱 솔루션 납품하기 위해 추가 요구사항 개발 및 커스터마이징
+
+            * 관리자가 사전에 가상 데스크톱 설정하기 위해 가상 데스크톱 프로비저닝 기능 구현
+
+            * 에이전트 없이 순수 웹 기반 가상화 데스크톱 서비스 MVP를 내부 프로젝트를 통해 개발
+          tech_stack: Java, Spring MVC, Tomcat, MariaDB, Docker
+
+        - name: 스마트오피스 솔루션 - 문서중앙화
+          duration: 2020.06 ~ 2021.05
+          description: 스마트오피스 솔루션 중 문서중앙화는 중앙 저장소에 모든 자료를 저장 및 백업을 통해 랜섬웨어 및 사이버 테러에서 안전하게 기업의 정보 자산을 보호하는 서비스입니다.
+          what_did_I_do: |
+            * ETRI 기술이전 관련 클라우드 및 온프레미스 기반의 문서 중앙화 서비스 프로젝트 참여
+
+            * 서버 OS 설치, 환경 구축, 기술이전 받은 프로그램 설치 및 구축, 성능테스트 / 이슈 체크
+
+            * 구글드라이브와 같이 웹에서 저장소 탐색 및 제어하기 위해 웹 탐색기 서비스 개발
+          tech_stack: PHP, Apache, MySQL, Ubuntu, OpenDedup, KVM, GCP
