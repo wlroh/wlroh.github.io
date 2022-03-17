@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://wlroh.github.io/sitemap.xml
