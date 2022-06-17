@@ -3,7 +3,16 @@
   content:
     - layout: left
       left_area_vertical_align: top
+      title: NEXTSTEP - TDD, 클린 코드 with Java 14기
+      caption: 2022.04 ~ 2022.06
+      description: |
+        * 협업과 유지보수를 위해 클린코드에 대해 공부하고자 참여
+        * 코드 품질과 꾸준한 리팩토링을 위해 TDD와 테스트 코드에 대해 공부하고자 참여
+        * 4개의 미션을 직접 진행하며 리뷰받는 방식으로 진행
+        * TDD, 리팩토링, 클린코드, OOP, 레거시코드 리팩토링 학습
+    - layout: left
+      left_area_vertical_align: top
       title: 명지대학교
       caption: 2014.03 ~ 2019.08
-      description: | # this will include new lines to allow paragraphs
+      description: |
         * 산업경영공학과 학사 졸업
