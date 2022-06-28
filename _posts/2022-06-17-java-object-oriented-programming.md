@@ -50,7 +50,6 @@ public class Order {
 
     ...
 
-
     public String status() {
         String orderStatus = "";
         if(isComplete) {
@@ -74,7 +73,6 @@ public class Order {
     private Boolean isComplete;
 
     ...
-
 
     public String status() {
         if(isComplete) {
