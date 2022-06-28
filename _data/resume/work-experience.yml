@@ -13,7 +13,7 @@
       projects:
         - name: SAE-A PREP 시스템
           duration: 2021.12 ~ 현재
-          description: 세아상역에서 의류 제품을 양산 전에 이루어지는 패턴, 소싱, 코스팅 등의 모든 업무를 시스템화 하는 SI 프로젝트입니다.
+          description: 세아상역에서 의류 제품을 양산 전에 이루어지는 샘플링, 소싱, 코스팅 등의 모든 업무를 시스템화 하는 SI 프로젝트입니다.
           what_did_I_do: |
             * Task 생성, 업데이트, 선후행 관계 제어 등 모든 업무들을 관리하는 워크플로우 Restful API 설계 및 개발
 
