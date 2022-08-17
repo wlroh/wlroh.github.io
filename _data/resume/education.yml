@@ -8,6 +8,7 @@
       description: |
         * 인수테스트 기반의 개발을 학습하고자 참여
         * ATDD와 TDD 기반의 개발 방법, 테스트 코드 리팩터링, 테스트 코드의 클린코드 방법, 문서화 방안을 학습
+        * 레거시 코드를 ATDD와 TDD 기반으로 리팩터링 경험
         * 4개의 미션을 직접 진행하며 리뷰받는 방식으로 진행
     - layout: left
       left_area_vertical_align: top
