@@ -7,12 +7,12 @@
       sub_title: |
         웹 어플리케이션 / 백엔드 개발자<br/>
         산업기능요원 복무만료
-      caption: 2019.09 ~ 현재
+      caption: 2019.09 ~ 2022.10
       quote: >
         가상화 기술을 통해 스마트오피스, 스마트교실, 스마트 공장 솔루션을 보유한 클라우드 기업
       projects:
         - name: 올인원 화상회의 서비스
-          duration: 2021.01 ~ 현재
+          duration: 2021.01 ~ 2022.10
           description: 고객사 관리자가 직접 화상회의 시스템을 관리하고, 고객사 유저 및 게스트간의 화상회의를 진행할 수 있는 B2B 웹 기반 화상회의 서비스입니다.
           what_did_I_do: |
             * 혼자서 화상회의 신규 서비스를 기획, 설계, 개발, 운영 중이며, 현재 **100여개의 기업**에서 화상회의 서비스를 이용
@@ -31,7 +31,7 @@
           tech_stack: Node.js, Express, Nginx, MariaDB, Redis, Kubernetes, Docker, Docker-compose, Jenkins
 
         - name: 스마트오피스 솔루션 - 가상화 데스크톱(DV)
-          duration: 2020.04 ~ 현재
+          duration: 2020.04 ~ 2022.10
           description: 스마트오피스 솔루션 중 가상화 데스크톱(DV)은 삼성 Dex 서비스와 같이 가상 데스크톱을 클라우드 기반으로 제공하는 서비스입니다.
           what_did_I_do: |
             * 운영이 중단된 사용자포탈 서비스의 이슈 수정 및 추가 요구사항 개발하여 **재런칭 및 유지보수**
