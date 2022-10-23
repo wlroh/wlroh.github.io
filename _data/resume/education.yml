@@ -3,6 +3,15 @@
   content:
     - layout: left
       left_area_vertical_align: top
+      title: NEXTSTEP - DDD 세레나데 4기
+      caption: 2022.08 ~ 2022.10
+      description: |
+        * 객체 지향 프로그래밍에 관심을 가지며 역할, 책임, 협력을 바탕으로 개발을 하다 도메인에 대해 관심이 가지게 되어 도메인 주도 설계가 무엇인지 공부하고자 참여
+        * Domain Driven Design 이 무엇인지 학습, 전략적 설계가 무엇이고 전략적 설계의 중요성을 학습, 전술적 설계의 종류와 전술적 설계를 어떻게 녹여내는지 학습
+        * 레거시 코드를 DDD를 사용하여 전략적 설계, 전술적 설계를 바탕으로 리팩터링 경험
+        * 3개의 미션을 직접 진행하며 리뷰받는 방식으로 진행
+    - layout: left
+      left_area_vertical_align: top
       title: NEXTSTEP - ATDD, 클린 코드 with Spring 5기
       caption: 2022.07 ~ 2022.08
       description: |
