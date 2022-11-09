@@ -6,7 +6,7 @@
       title: Backend
       description: | # this will include new lines to allow paragraphs
         * Java, Node.js
-        * Spring MVC, Spring Boot, Express
+        * Spring MVC, Spring Boot, Spring Data JPA, Express
         * JPA, Mybatis
         * Junit5, Mockito, RestAssured, Spring REST Docs
         * Gradle, Maven
