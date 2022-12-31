@@ -12,7 +12,7 @@ show_excerpts: true # set to true to show excerpts on the homepage
 sass:
   sass_dir: _sass
 plainwhite:
-  name: LaeWoong
+  name: 래웅의 블로그
   tagline: Backend Developer
   intro: |
     목표를 위해 시스템을,
