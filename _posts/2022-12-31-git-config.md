@@ -10,6 +10,7 @@ categories: Git
 
 이렇게 사용을 하다보니 local 설정이 안되어 있는 레포지토리의 경우 의도치 않게 global 설정인 회사 계정으로 커밋되는 문제가 계속 발생되어 회사 계정과 개인 계정을 분리하는 방법에 대해 정리해보고자 합니다.
 
+<br/>
 ## `Conditional includes` 을 활용해 폴더별로 git 계정을 분리하자
 
 Git Configuration file 관련 docs를 읽어보면 `Conditional includes`에 대한 내용이 있습니다. `Conditional includes`에 대해 알아보면 세팅한 조건에 해당하면 설정한 경로에 다른 config 파일을 포함할 수 있도록 해줍니다.
