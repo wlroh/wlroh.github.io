@@ -33,7 +33,7 @@ plainwhite:
   social_links:
     #twitter: samarsault
     github: wlroh
-    #linkedIn: in/samarsault
+    linkedIn: in/wlroh
     #instagram: jekyll
     #facebook: jekyll
     #gitlab: jekyll
@@ -76,7 +76,7 @@ darkmode: true
 #twitter_username: jekyllrb
 github_username: wlroh
 #facebook_username: jekyll
-#linkedin_username: jekyll
+linkedin_username: wlroh
 #googlescholar_username: D847cGsAAAAJ
 
 # Google Analytics and Tag Manager
