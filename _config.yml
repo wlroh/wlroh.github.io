@@ -7,9 +7,9 @@ show_excerpts: true # set to true to show excerpts on the homepage
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 
-# collections:
-#   memoirs:
-#     output: true
+collections:
+  memoirs:
+    output: true
 sass:
   sass_dir: _sass
 plainwhite:
@@ -52,8 +52,8 @@ plainwhite:
       url: "/"
     - title: Categories
       url: "/categories"
-    # - title: Memoirs
-    #   url: "/memoirs"
+    - title: Memoirs
+      url: "/memoirs"
 
 # --------------------------------------  Resume Config  --------------------------------------
 
