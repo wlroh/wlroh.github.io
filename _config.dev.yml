@@ -22,7 +22,6 @@ plainwhite:
   date_format: "%b %-d, %Y"
   sitemap: true
   search: true
-  analytics_id: G-HCKCGPDD5F
   dark_mode: true
   portfolio_image: "assets/images/portfolio.png"
   html_lang: "KR"
@@ -83,7 +82,7 @@ linkedin_username: wlroh
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
 # gtm: "GTM-0000000"
-gtag: "G-HCKCGPDD5F"
+# gtag: G-HCKCGPDD5F
 # google_analytics: "UA-00000000-0"
 
 # About Section

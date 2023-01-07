@@ -24,7 +24,16 @@
     {%- include resume/gtm_head.html -%}
   {%- endif -%} 
   
-  {%- if jekyll.environment == 'production' and site.gtag -%} 
-    {%- include gtag.html -%}
+  {%- if site.gtag -%} 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.gtag }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', '{{ site.gtag }}');
+    </script>
+    <!-- End global site tag (gtag.js) - Google Analytics -->
   {%- endif -%}
 </head>
