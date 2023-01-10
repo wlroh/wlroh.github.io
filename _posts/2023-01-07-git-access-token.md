@@ -39,7 +39,7 @@ github API 호출을 하기 위해 토큰이 필요한데 발급받는 과정부
 엑세스 토큰을 이용해 github 접근을 할 때 아래와 같은 대표적으로 아래와 같은 방법들이 있습니다.
 
 - 매번 access token을 입력하는 방법
-- remote url 에 access token 정보를 포함키는 방법
+- remote url 에 access token 정보를 포함하는 방법
 - store 모드를 통해 인증정보를 Disk의 텍스트 파일로 저장하는 방법
 - osxkeychain 모드를 통해 Mac에서 제공하는 Keychain 시스템을 이용하는 방법
 
