@@ -88,8 +88,8 @@ Java에서 Static 키워드를 사용한다는 것은 메모리에 한번 할당
 
     ```java
     public class Test {
-      private String name1 = "MangKyu";
-      private static String name2 = "MangKyu";
+      private String name1 = "Paul";
+      private static String name2 = "Paul";
 
       public static void printName(){
         // System.out.println(name1); 불가능한 호출
