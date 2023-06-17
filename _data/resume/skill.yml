@@ -7,8 +7,8 @@
       description: | # this will include new lines to allow paragraphs
         * Java, Node.js
         * Spring MVC, Spring Boot, Spring Data JPA, Express
-        * JPA, Mybatis
-        * Junit5, Mockito, RestAssured, Spring REST Docs
+        * JPA, Mybatis, Querydsl
+        * Junit5, Mockito, RestAssured, Spring REST Docs, Swagger
         * Gradle, Maven
         * Intellij, Eclipse, Visual Studio Code
     - layout: left
@@ -19,7 +19,7 @@
         * Jenkins, Ansible
         * Tomcat, Nginx, Resin
         * Linux(CentOS, Ubuntu)
-        * Docker, Docker-compose, Kubernetes
+        * Docker, Docker-compose, Kubernetes, Kafka
     - layout: left
       left_area_vertical_align: top
       title: Frontend
