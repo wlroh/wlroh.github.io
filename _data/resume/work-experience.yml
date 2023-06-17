@@ -8,16 +8,31 @@
         글로벌개발팀. 백엔드 개발자
       caption: 2022.10 ~ 현재
       quote: >
-        MAU 1,300만의 온라인 패션커머스 서비스
+        MAU 1,300만의 온라인 패션커머스 서비스 기업
       projects:
         - name: 글로벌 무신사 스토어 서비스
           duration: 2022.10 ~ 현재
-          description: Global 시장에 K-Fashion을 바탕으로 패션 커머스 서비스를 제공하는 무신사 스토어 서비스입니다.
+          description: Global 시장에 K-Fashion을 바탕으로 13개 국가에 패션 커머스 서비스를 제공하는 무신사 스토어 서비스입니다.
           what_did_I_do: |
-            * **베트남 접근성과 편의성 개선**을 위해 전시 관련 베트남어 관리 기능 구현
+            * 래플 서비스 제공하기 위한 데이터 모델링 및 신규 API 구현
+            * **탐색 경험 및 구매 전환 개선** 위한 상품 상세 로직 개선 및 API 구현
+            * 디자인 개편 및 FE 전환 관련 로직 개선 및 API 구현
+            * **디바이스별 다양한 탐색 경험을 제공**하기 위해 메뉴 로직 개선 및 API 구현
+            * **코드 품질 향상 위한 리팩터링, 서비스 안정성, 요구사항 명세서 역할** 목적으로 단위 테스트 코드 작성
+            * 유지보수 향상을 위한 아키텍처를 도메인별로 리팩터링
+            * 신규 통화 및 언어 추가됨에 따라 로직 개선
+            * 프로모션 API 구현. 캐싱 데이터가 없을 때 내부 API 통신이 많아 응답속도가 느린 문제가 있어, **비동기 처리를 통해 응답속도를 500ms -> 100ms 약 80% 성능 개선**
+          tech_stack: Java, Spring Boot, JPA, Spring Data JPA, Querydsl, Redisson, Kafka, MariaDB, Redis
+
+        - name: 글로벌 무신사 백오피스
+          duration: 2022.10 ~ 현재
+          description: Global 무신사 스토어 서비스를 운영하기 위해 내부에서 사용하는 관리 툴입니다.
+          what_did_I_do: |
+            * 각 국가별 디바이스 사용률에 따른 탐색 경험 제공하기 위해 **디바이스별 메뉴 관리 기능 구현**                    
             * 국가별로 전시 관리가 가능하도록 관리 기능 개선하여, **각 국가별 계절 혹은 특징에 맞게 기획전, 상품 등 전시**
-            * 뉴진스 프로모션 관련 리소스, 코디숍 API 구현. 초기 API의 경우 캐싱이 없는 상황에서 요청 시 내부 API 통신이 많아 응답속도가 느린 문제가 있어, **비동기 처리를 통해 응답속도를 500ms -> 100ms 약 80% 성능 개선**
-          tech_stack: Java, Spring Boot, JPA, Spring Data JPA, Querydsl, MariaDB
+            * **국가별 현지 통화 제공**하기 위해 신규 통화 반영
+            * **베트남 접근성과 편의성 개선**을 위해 전시 관련 베트남어 관리 기능 구현
+          tech_stack: Thymeleaf, Javascript, Java, Spring Boot, JPA, Spring Data JPA, Querydsl, MariaDB
 
     - layout: left
       left_area_vertical_align: top
