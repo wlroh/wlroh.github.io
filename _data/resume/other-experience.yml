@@ -4,10 +4,15 @@
     - layout: top-middle
       title: 기술 블로그
       link: https://wlroh.github.io
-      link_text:
       description: | # this will include new lines to allow paragraphs
         * 개인 기술 블로그를 운영하고 있습니다.
         * 새로운 내용들을 배우면 공유하기 위해 포스트를 작성하고 있습니다.
+
+    - layout: top-middle
+      title: 리뷰어 활동
+      description: | # this will include new lines to allow paragraphs
+        * NEXTSTEP에서 진행하는 DDD 세레나데에서 리뷰어로 활동하고 있습니다.
+        * 프로그래밍은 정답이 없다고 생각하기 때문에 최대한 리뷰이분들의 의도를 파악하고 토론하면서 피드백을 드리며, 저 또한 리뷰이분들을 통해 새로운 인사이트를 얻고 있습니다.
 
     - layout: top-middle
       title: 소리보기 창업 활동
