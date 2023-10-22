@@ -15,7 +15,7 @@
       left_area_vertical_align: top
       title: DevOps
       description: | # this will include new lines to allow paragraphs
-        * MySQL, MariaDB, MSSQL, Redis
+        * MySQL, MariaDB, MSSQL, Redis, MongoDB
         * Jenkins, Ansible
         * Tomcat, Nginx, Resin
         * Linux(CentOS, Ubuntu)
