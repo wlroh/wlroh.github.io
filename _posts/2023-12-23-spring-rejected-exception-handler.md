@@ -3,7 +3,7 @@ layout: post
 title: "RejectedExecutionException과 Handler"
 date: 2023-12-23
 excerpt: "RejectedExecutionException과 Handler에 대해 알아보자"
-categories: Async Spring Java
+categories: Spring Java
 ---
 
 비동기를 사용하기 위해 ThreadPool 을 사용하다보면 `RejectedExecutionException` 가 종종 발생해서 로그 혹은 모니터링 알림을 받는 케이스가 있을 겁니다. 비동기 실행이 거절되었을 때 발생하는 예외인데 왜 발생하고, 후처리를 할 수 있는 방안이 없는지 확인해보려고 합니다.
