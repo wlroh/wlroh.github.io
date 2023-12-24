@@ -3,7 +3,7 @@ layout: post
 title: "[Spring] @Async 어노테이션 Default TaskExecutor는 무엇일까?"
 date: 2023-02-11
 excerpt: "Spring Default Task Executor에 대해 알아보자"
-categories: Spring
+categories: Spring Async
 ---
 
 Spring을 통해 비동기 처리를 하기 위해서 `@Async` 어노테이션을 통해 비동기 처리를 할 수 있습니다. `@Async` 어노테이션의 value 값을 지정해 어떤 `Executor` 혹은 `TaskExecutor` Bean을 사용할지 지정할 수 있는데, value 값 없이 실행했을 때 Default TaskExecutor가 무엇일지 궁금해 학습하게 되어 포스팅하게 되었습니다.

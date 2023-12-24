@@ -3,7 +3,7 @@ layout: post
 title: "[Spring] 비동기와 ThreadPoolTaskExecutor"
 date: 2023-12-09
 excerpt: "Spring 비동기와 ThreadPoolTaskExecutor 에 대해 알아보자"
-categories: Spring
+categories: Spring Async
 ---
 
 서비스를 운영하다보면 성능 향상을 위해, 비동기를 통해 구현이 필요한 경우도 있습니다. <br/>
@@ -84,7 +84,7 @@ ThreadPoolTaskExecutor 의 경우 기본적으로 lazy loading을 하기 때문�
 ### setRejectedExecutionHandler
 
 큐도 가득차고 쓰레드 개수가 최대 쓰레드 개수만큼 생성되어 있을 때 요청이 들어오면 기본적으로는 `RejectedExecutionException` 예외가 발생됩니다. <br/>
-이때 후처리를 어떻게 할지 핸들러를 통해 설정해줄 수 있습니다. 해당 내용도 별도의 포스팅으로 다루겠습니다.
+이때 후처리를 어떻게 할지 핸들러를 통해 설정해줄 수 있습니다. 관련 내용에 대해 자세히 보시려면 [RejectedExecutionException과 Handler](https://wlroh.github.io/async/spring/java/2023/12/23/spring-rejected-exception-handler.html) 포스팅을 참고바랍니다.
 
 <br/>
 
