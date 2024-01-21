@@ -30,7 +30,9 @@ layout: default
     {% endif %}
   </li>
 
-  {%- for post in site.posts -%}
+  {% assign filtered_posts = site.posts | where_exp:"item", "item.path contains 'tech'" %}
+
+  {%- for post in filtered_posts -%}
   <li class="post-box" onclick="hrefLink('{{ post.url | relative_url }}')">
     {%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y"
     -%}

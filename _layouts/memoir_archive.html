@@ -8,14 +8,16 @@ layout: default
 
 {{ content }} 
 
-{%- if site.memoirs.size > 0 -%}
+{%- if site.posts.size > 0 -%}
 <ul class="posts">
   <li class="posts-labelgroup" id="posts-labelgroup">
     <h1 id="posts-label">posts</h1>
     
   </li>
 
-  {%- for post in site.memoirs -%}
+  {% assign filtered_posts = site.posts | where_exp:"item", "item.path contains 'memoirs'" %}
+  
+  {%- for post in filtered_posts -%}
   <li class="post-box" onclick="hrefLink('{{ post.url | relative_url }}')">
     {%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y"
     -%}
