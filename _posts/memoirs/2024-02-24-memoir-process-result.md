@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "과정과 결과에 대해 다시 한번 생각하는 시간"
+title: "결과에 매몰되어 있지 않나요?"
 date: 2024-02-24
 excerpt: "과정과 결과에 대해 생각을 정리하며"
 categories:  Memoir
