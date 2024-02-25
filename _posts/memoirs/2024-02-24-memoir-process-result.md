@@ -9,7 +9,7 @@ categories:  Memoir
 전시회를 많이 다녀본적은 없지만, 몇번 다녀온 적이 있고 요즘은 인터넷, 유튜브, 티비 등 다양한 매체를 통해 작품에 대해 쉽게 접할 수 있다. 전시회의 매력을 모르던 나는 1차원적으로 작품을 봤다.
 
 <div align=center>
-  <img width=600 src="https://www.dropbox.com/scl/fi/99c1m96u2nxw7nox2hg2x/art.png?dl=1"/>
+  <img width=600 src="https://raw.githubusercontent.com/wlroh/wlroh.github.io/main/assets/images/memoirs/art.png"/>
 </div>
 
 어? 이거 나도 그릴 수 있겠는데? 이게 그렇게 비싸? 이런 생각을 했던 적이 있다.
