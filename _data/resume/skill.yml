@@ -5,7 +5,7 @@
       left_area_vertical_align: top
       title: Backend
       description: | # this will include new lines to allow paragraphs
-        * Java, Node.js
+        * Java(JDK 21), Node.js
         * Spring MVC, Spring Boot, Spring Data JPA, Express
         * JPA, Mybatis, Querydsl
         * Junit5, Mockito, RestAssured, Spring REST Docs, Swagger
