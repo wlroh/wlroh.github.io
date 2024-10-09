@@ -22,7 +22,7 @@
               * 상품 상세 도메인 모델링 및 로직 개선과 신규 API 구현
               * 메뉴 도메인 모델링 재설계 및 로직 개선하여 캐싱 데이터 동기화 개선
               * 캠페인 도메인 PoC 진행 및 검증완료. 상품과 브랜드 기반의 캠페인 모델링 및 API 구현
-              * MSA 구조와 API Composition 패턴으로 인해 성능 최적화하기 위해 **Thread Pool 구성 및 논블록 Composition과 CQRS 패턴을 통해 Latency 개선**
+              * MSA 구조와 API Composition 패턴으로 인해 성능 최적화하기 위해 **Thread Pool 구성 및 비동기를 활용한 Composition과 CQRS 패턴을 통해 Latency 개선**
             * **안정적인 서비스 제공**을 위해 CI/CD 재구성과 모니터링 시스템 개편
               * 기존 EC2와 Kubernetes를 통한 서비스를 모두 Kubernetes 로 전환하여 **안정적인 시스템 구성과 배포 및 롤백 시간을 60% 개선**
               * CI/CD 구성을 Jenkins & Spinnaker 에서 ArgoCD & Github Action 으로 전환하여 **개발팀 내에서 서비스에 대한 관리 효율성 증대**
