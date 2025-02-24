@@ -9,21 +9,29 @@
         * 새로운 내용들을 배우면 공유하기 위해 포스트를 작성하고 있습니다.
 
     - layout: top-middle
-      title: 글또 9기 활동
-      caption: 2023.12 ~ 2024.05
-      description: | # this will include new lines to allow paragraphs
-        * 글또(글 쓰는 또라이가 세상을 바꾼다) 9기 활동을 하고 있습니다.
-        * 글쓰기란, 제가 아는 지식에 대해 공유함으로써 다른분들께 도움을 줄 수 있다는 즐거움과 지식을 공유하기 위해 아는 것과 안다고 착각하는 것을 구분함으로써 저의 지식도 정리되는 너무 좋은 활동이라고 생각하고 있어 글또 활동을 통해 개발 커뮤니티에 기여하고자 합니다.
-
-    - layout: top-middle
       title: 리뷰어 활동
+      caption: 2023.08 - 현재
       description: | # this will include new lines to allow paragraphs
         * NEXTSTEP에서 진행하는 DDD 세레나데에서 리뷰어로 활동하고 있습니다.
         * 프로그래밍은 정답이 없다고 생각하기 때문에 최대한 리뷰이분들의 의도를 파악하고 토론하면서 피드백을 드리며, 저 또한 리뷰이분들을 통해 새로운 인사이트를 얻고 있습니다.
 
     - layout: top-middle
+      title: SLiPP 활동
+      caption: 2024.03 - 현재
+      description: | # this will include new lines to allow paragraphs
+        * SLiPP 에서 개발자분들과 지속적으로 스터디를 하면서 경험과 지식을 공유하고 인사이트를 얻고 있습니다.
+        * 분기별로 스터디를 진행하며, 지속적인 학습과 다양한 연차의 개발자분들과 교류하며 제 경험을 나누고 배워가고 있습니다.
+
+    - layout: top-middle
+      title: 글또 활동
+      caption: 9기, 10기
+      description: | # this will include new lines to allow paragraphs
+        * 글또(글 쓰는 또라이가 세상을 바꾼다) 활동을 하고 있습니다.
+        * 글쓰기란, 제가 아는 지식에 대해 공유함으로써 다른분들께 도움을 줄 수 있다는 즐거움과 지식을 공유하기 위해 아는 것과 안다고 착각하는 것을 구분함으로써 저의 지식도 정리되는 너무 좋은 활동이라고 생각하고 있어 글또 활동을 통해 개발 커뮤니티에 기여하고자 합니다.
+
+    - layout: top-middle
       title: 소리보기 창업 활동
-      caption: 2016.09 ~ 2019.08
+      caption: 2016.09 - 2019.08
       description: | # this will include new lines to allow paragraphs
         * (주)소리보기 창립멤버 및 대표로 스타트업을 운영한 경험이 있습니다. 활동 기간동안 웹어플리케이션, API 서버, 안드로이드 앱 개발을 진행했으며 다양한 지원사업 및 베타 서비스 런칭 등의 경험이 있습니다.
 
