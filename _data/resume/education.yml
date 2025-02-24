@@ -4,7 +4,7 @@
     - layout: left
       left_area_vertical_align: top
       title: NEXTSTEP - DDD 세레나데 4기
-      caption: 2022.08 ~ 2022.10
+      caption: 2022.08 - 2022.10
       description: |
         * 객체 지향 프로그래밍에 관심을 가지며 역할, 책임, 협력을 바탕으로 개발을 하다 도메인에 대해 관심이 가지게 되어 도메인 주도 설계가 무엇인지 공부하고자 참여
         * Domain Driven Design 이 무엇인지 학습, 전략적 설계가 무엇이고 전략적 설계의 중요성을 학습, 전술적 설계의 종류와 전술적 설계를 어떻게 녹여내는지 학습
@@ -13,7 +13,7 @@
     - layout: left
       left_area_vertical_align: top
       title: NEXTSTEP - ATDD, 클린 코드 with Spring 5기
-      caption: 2022.07 ~ 2022.08
+      caption: 2022.07 - 2022.08
       description: |
         * 인수테스트 기반의 개발을 학습하고자 참여
         * ATDD와 TDD 기반의 개발 방법, 테스트 코드 리팩터링, 테스트 코드의 클린코드 방법, 문서화 방안을 학습
@@ -22,7 +22,7 @@
     - layout: left
       left_area_vertical_align: top
       title: NEXTSTEP - TDD, 클린 코드 with Java 14기
-      caption: 2022.04 ~ 2022.06
+      caption: 2022.04 - 2022.06
       description: |
         * 협업과 유지보수를 위해 클린코드에 대해 공부하고자 참여
         * 코드 품질과 꾸준한 리팩토링을 위해 TDD와 테스트 코드에 대해 공부하고자 참여
@@ -31,6 +31,6 @@
     - layout: left
       left_area_vertical_align: top
       title: 명지대학교
-      caption: 2014.03 ~ 2019.08
+      caption: 2014.03 - 2019.08
       description: |
         * 산업경영공학과 학사 졸업
